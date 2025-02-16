@@ -9,13 +9,13 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 contract MyNFT is ERC721URIStorage {
     uint256 tokenId;
 
-    constructor() ERC721("myToken", "MET") {}
+    constructor() ERC721("myToken", "MNT") {}
 
     function mint() external {
         _safeMint(msg.sender, tokenId);
         _setTokenURI(
             tokenId,
-            "https://path/to/metadata-uri"
+            "https://raw.githubusercontent.com/am1co/core-bootcamp/refs/heads/main/04-erc721/metadata.json"
         );
         tokenId++;
     }
