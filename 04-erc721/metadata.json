@@ -1,0 +1,20 @@
+{
+    "name": "My NFT",
+    "description": "NFT Description goes here",
+    "symbol": "MNT",
+    "image": "https://i.imgur.com/ikSBNrL.jpeg",
+    "attributes": [
+        {
+            "trait_type": "a",
+            "value": "a"
+        },
+        {
+            "trait_type": "b",
+            "value": "b"
+        },
+        {
+            "trait_type": "c",
+            "value": "c"
+        }
+    ]
+}
